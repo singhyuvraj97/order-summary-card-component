@@ -9,6 +9,9 @@
 
 body{
   background-color: hsl(225, 100%, 94%);
+  background-image: url("./design_files/images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .card{
@@ -113,4 +116,10 @@ body{
   font-weight: 700;
   color: hsl(224, 23%, 55%);
   text-decoration: none;
+}
+
+@media screen and (max-width: 375px){
+  body{
+    background-image: url("./design_files/images/pattern-background-mobile.svg");
+  }
 }
